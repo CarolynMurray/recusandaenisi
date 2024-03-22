@@ -1,0 +1,36 @@
+{
+  "name": "recusandaenisi",
+  "version": "1.0.0",
+  "description": "Utility for reading and resolving the module export names from a TypeScript or JavaScript file",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "bin": "cli.js",
+  "author": "MarceloRussel",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CarolynMurray/recusandaenisi.git"
+  },
+  "keywords": [
+    "sequi",
+    "rerum",
+    "typescript",
+    "javascript",
+    "files"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^6.0.0",
+    "typescript": "^3.9.7"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.27",
+    "mocha": "^8.0.1",
+    "mocha-ui-jest": "^0.4.0",
+    "ts-node": "^8.10.2"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha -r ts-node/register -r mocha-ui-jest --ui jest tests/*.ts"
+  },
+  "homepage": "https://github.com/CarolynMurray/recusandaenisi.git"
+}
